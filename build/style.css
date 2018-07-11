@@ -25,6 +25,7 @@
     color: blue;
     background-color: brown;
     left: 0%;
+    box-shadow: 20px 20px gray;
   }
   to {
     border-radius: 40%;
