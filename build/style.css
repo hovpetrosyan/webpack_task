@@ -1,6 +1,48 @@
 #header {
-  width: 100px;
-  height: 1100px;
-  background-color: green;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -250px;
+  color: white;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 20%;
+  font-size: 100px;
+}
+@keyframes colorchange {
+  from {
+    background-color: #9ced34;
+  }
+  to {
+    background-color: #ed9634;
+  }
+}
+@keyframes borderchange {
+  from {
+    border-radius: 10%;
+    border: 8px solid white;
+    color: blue;
+    background-color: brown;
+    left: 0%;
+  }
+  to {
+    border-radius: 40%;
+    border: 5px solid gray;
+    color: white;
+    background-color: bisque;
+    left: 50%;
+    top: 70%;
+  }
+}
+body {
+  animation: colorchange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+#header {
+  animation: borderchange;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
 }
 

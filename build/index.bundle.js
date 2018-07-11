@@ -64,7 +64,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "c044dd1750a83cd2ea13";
+/******/ 	var hotCurrentHash = "127848b043664ec4b632";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1135,7 +1135,7 @@ eval("\n\nvar _index = __webpack_require__(/*! ./index1 */ \"./src/scripts/index
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\nexports.simple = simple;\nfunction simple() {\n\talert('simple function works from index1');\n}\n\n//# sourceURL=webpack:///./src/scripts/index1.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\nexports.simple = simple;\nfunction simple() {\n\tconsole.log('simple function works from index1');\n}\n\n//# sourceURL=webpack:///./src/scripts/index1.js?");
 
 /***/ }),
 
@@ -1147,7 +1147,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\nexports.complex = complex;\nfunction complex() {\n\talert('complex function worked from index2');\n}\n\n//# sourceURL=webpack:///./src/scripts/index2.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\nexports.complex = complex;\nfunction complex() {\n\tconsole.log('complex function worked from index2');\n}\n\n//# sourceURL=webpack:///./src/scripts/index2.js?");
 
 /***/ }),
 
@@ -1158,7 +1158,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n\tvalue: true\n});\n
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by extract-css-chunks-webpack-plugin\n    if(true) {\n      // 1531239059491\n      var cssReload = __webpack_require__(/*! ../../node_modules/extract-css-chunks-webpack-plugin/dist/hotModuleReplacement.js */ \"./node_modules/extract-css-chunks-webpack-plugin/dist/hotModuleReplacement.js\")(module.i, {\"fileMap\":\"{fileName}\"});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/styles/style.less?");
+eval("// extracted by extract-css-chunks-webpack-plugin\n    if(true) {\n      // 1531291745978\n      var cssReload = __webpack_require__(/*! ../../node_modules/extract-css-chunks-webpack-plugin/dist/hotModuleReplacement.js */ \"./node_modules/extract-css-chunks-webpack-plugin/dist/hotModuleReplacement.js\")(module.i, {\"fileMap\":\"{fileName}\"});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/styles/style.less?");
 
 /***/ })
 

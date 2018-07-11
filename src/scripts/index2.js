@@ -1,3 +1,3 @@
 export function complex(){
-	alert('complex function worked from index2');
+	console.log('complex function worked from index2');
 }
