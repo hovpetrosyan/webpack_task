@@ -12,10 +12,10 @@
 }
 @keyframes colorchange {
   from {
-    background-color: #9ced34;
+    background-color: bisque;
   }
   to {
-    background-color: #ed9634;
+    background-color: brown;
   }
 }
 @keyframes borderchange {
