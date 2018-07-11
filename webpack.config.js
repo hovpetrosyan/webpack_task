@@ -3,7 +3,8 @@ const ExtractCssChunks = require("extract-css-chunks-webpack-plugin");
 var path = require('path');
 const webpack = require('webpack');
 module.exports = {
-	mode:'production',
+	watch:true,
+	mode:'development',
 	entry:'./src/scripts/index.js',
 	output:{
 		path:path.resolve(__dirname,'./build'),
@@ -33,9 +34,6 @@ module.exports = {
 			  //chunkFilename: "[id].css",
 			  hot: true // optional is the plguin cannot automatically detect if you are using HOT, not for production use
 			}),
-			new webpack.HotModuleReplacementPlugin()
-	],
-	devServer:{
-			hot:true
-		}
+		new webpack.HotModuleReplacementPlugin()
+	]
 };
